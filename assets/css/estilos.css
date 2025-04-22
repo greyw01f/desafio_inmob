@@ -1,0 +1,51 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Asegura que no se repita */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    /* Opciones para mejorar la legibilidad del texto sobre la imagen */
+    /* background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    /* filter: brightness(0.7); /* Oscurece la imagen */
+}
+
+.card {
+    /* Ajusta la altura según el contenido o usa min-height */
+    /* height: auto; */
+    min-height: 300px; /* Ejemplo de altura mínima */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Si no estás usando el espaciado de Bootstrap */
+}
+
+.card img {
+    height: 250px;
+    width: 100%; /* Asegura que la imagen se ajuste al ancho de la tarjeta */
+    object-fit: cover; /* Recorta la imagen para cubrir el área */
+    display: block; /* Evita problemas de espaciado en línea */
+    border-top-left-radius: 5px; /* Redondea las esquinas superiores de la imagen */
+    border-top-right-radius: 5px;
+}
+
+.card-body {
+    padding: 1rem; /* Asegúrate de que haya un relleno alrededor del texto */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.75rem;
+}
+
+/* Puedes agregar más estilos para los iconos, precios, etc. */
